@@ -1,5 +1,12 @@
----mod wisp.config.default Default wisp.wezterm configuration
+---@mod Wisp.Config.Default Default wisp.wezterm configuration
 
----@class wisp.Config: wisp.Opts
+---@class Wisp.Config: Wisp.Opts
+local M = {}
 
----@class
+---@type Wisp.Opts
+M.default = {
+    modules = {}
+}
+
+return M
+

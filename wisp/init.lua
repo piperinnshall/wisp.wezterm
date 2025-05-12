@@ -1,10 +1,11 @@
+---@class Wisp
 local M = {}
 
-function M.setup(spec, opts) {
+---@param opts wisp.Opts
+function M.setup(opts)
+    require 'wezterm'.log_info("Hello from wisp!")
 
-}
-
-local wezterm = require 'wezterm'
-wezterm.log_info("Hello from wisp!")
+    local Config = require('wisp.config')
+end
 
 return M
