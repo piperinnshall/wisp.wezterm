@@ -5,7 +5,7 @@ local M = {}
 
 ---@type Wisp.Opts
 M.default = {
-    modules = {}
+    modules = {},
 }
 
 return M

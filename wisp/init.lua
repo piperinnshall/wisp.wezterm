@@ -2,10 +2,9 @@
 local M = {}
 
 ---@param opts wisp.Opts
-function M.setup(opts)
-    require 'wezterm'.log_info("Hello from wisp!")
-
+M.setup = function (opts)
     local Config = require('wisp.config')
+    local Default = require('wisp.config.default')
 end
 
 return M
